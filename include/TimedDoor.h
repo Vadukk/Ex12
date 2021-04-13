@@ -18,7 +18,6 @@ class Door {
   virtual bool isDoorOpened() = 0;
 };
 class DoorTimerAdapter : public TimerClient {
-
  private:
   TimedDoor& door;
  public:
